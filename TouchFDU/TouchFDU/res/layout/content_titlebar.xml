@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <LinearLayout
+        android:id="@+id/content_titlebar"
+        android:layout_width="fill_parent"
+        android:layout_height="47dip"
+        android:background="@color/title_bar_color"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/back_button"
+            android:layout_width="@dimen/titlebarImgSize"
+            android:layout_height="@dimen/titlebarImgSize"
+            android:background="@android:color/transparent"
+            android:onClick="back"
+            android:scaleType="fitXY"
+            android:src="@drawable/back" />
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/myTitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dip"
+                android:ellipsize="end"
+                android:gravity="left"
+                android:singleLine="true"
+                android:text="@string/app_name"
+                android:textColor="@color/title_string_color"
+                android:textSize="@dimen/title_string_size" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/titlebarrightbt"
+            android:layout_width="@dimen/titlebarImgSize"
+            android:layout_height="@dimen/titlebarImgSize"
+            android:background="@drawable/share"
+            android:gravity="center_vertical"
+            android:scaleType="fitXY"
+            android:layout_marginRight="5dip"
+            android:textColor="@android:color/white"
+            android:onClick="wechatShare" />
+    </LinearLayout>
+
+</merge>

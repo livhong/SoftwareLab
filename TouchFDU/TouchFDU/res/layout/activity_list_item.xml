@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_item"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+  <!--   
+    <ImageView
+        android:id="@+id/content_img"
+        android:layout_width="116.0dip"
+        android:layout_height="87.0dip"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@android:color/holo_blue_bright"
+        android:scaleType="centerCrop" />
+        android:lines="2"
+   -->
+	
+	 <TextView
+        android:id="@+id/list_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="8dip"
+        android:lines="2"
+        android:ellipsize="end"
+        android:text="Title"
+        android:textColor="@color/list_title_color"
+        android:textSize="@dimen/list_title_size"
+        android:lineSpacingExtra="3dip" />
+	
+    <RelativeLayout
+        android:id="@+id/content_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/list_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10.0dip"
+            android:duplicateParentState="true"
+            android:singleLine="true"
+            android:text="12:30"
+            android:textColor="@android:color/secondary_text_dark"
+            android:textSize="@dimen/list_time_size" />
+        
+        <ImageView 
+            android:layout_width="@dimen/list_img_size"
+            android:layout_height="@dimen/list_img_size"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/gonext"
+            android:layout_marginRight="15dip"/>
+    </RelativeLayout>
+    
+   
+
+</LinearLayout>

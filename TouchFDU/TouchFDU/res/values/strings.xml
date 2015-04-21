@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TouchFDU</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="tab_news">新闻</string>
+    <string name="tab_jwc">教务处</string>
+    <string name="tab_fao">外事处</string>
+    <string name="clickToLoading">点击加载</string>
+    <string name="menu_share">分享</string>
+    <string name="no_internet_string">亲，网络未连接╭(╯3╰)╮</string>
+    <string name="app_ok">确定</string>
+    <string name="app_cancel">取消</string>
+    <string name="send_webpage">发送网页</string>
+	<string-array name="send_webpage_item">
+	    <item>发送网页url</item>
+	</string-array>
+    
+	<integer-array name="google_colors">
+        <item>@color/red</item>
+        <item>@color/blue</item>
+        <item>@color/yellow</item>
+        <item>@color/green</item>
+    </integer-array>
+	
+</resources>

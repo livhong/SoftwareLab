@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="title_bar_color">#06b58a</color>
+    <color name="title_string_color">#000000</color>
+    <color name="red">#FFC93437</color>
+    <color name="blue">#FF375BF1</color>
+    <color name="yellow">#FFF7D23E</color>
+    <color name="green">#FF34A350</color>
+    <color name="loadColor">#ff222222</color>
+    <color name="content_title_color">#000000</color>
+    <color name="content_brief_color">#ff666666</color>
+    <color name="list_title_color">#aa3757a1</color>
+    <color name="no_internet_back">#ff1111</color>
+    <color name="no_internet_textcolor">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="grey">#58616d</color>
+    <color name="darkgrey">#ff404040</color>
+    <color name="toasterro">#9fd524</color>
+    <color name="lightgrey">#ff888888</color>
+    <color name="semitransparent">#80000000</color>
+    <color name="lightransparent">#a0000000</color>
+    <color name="navpage">#FFE1E8EB</color>
+</resources>
